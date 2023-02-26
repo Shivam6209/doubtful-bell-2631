@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(232, 232, 232);
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.nav-login>div{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    height: 70px;
+    align-items: center;
+}
+.nav-login{
+    background-color: white;
+}
+
+.nav-login>div>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.nav-login>div>img {
+    height: 90%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
+*{
+  box-sizing: border-box;  
+}
+.container{
+    min-height: calc(100vh - 40px * 2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.login-left{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.login-form{
+    width: 450px;
+    
+}
+
+.form-item label:not(.checkboxLabel){
+    display: inline-block;
+    background-color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='number'],
+input[type='text']
+{
+    border: 1px solid black;
+    height: 40px;
+    padding: 0 2rem;
+    width: 90%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+#register-btn{
+    font-size: 18px;
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+.login-form-fotter{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.login-form-fotter>a{
+    flex: 6;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: .6rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.login-form-fotter>a:hover{
+    background-color:aliceblue;
+}
+.login-form-content{
+    justify-content: center;
+    align-items: center;
+}
+.form-item{
+    
+}
+

@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(232, 232, 232);
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.nav-login>div{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    height: 70px;
+    align-items: center;
+}
+.nav-login{
+    background-color: white;
+}
+
+.nav-login>div>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.nav-login>div>img {
+    height: 90%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
+*{
+  box-sizing: border-box;  
+}
+.container{
+    min-height: calc(100vh - 40px * 2);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 40px;
+    
+}
+
+.login-left{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    background-color: white;
+}
+.login-right{
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 150px;
+   text-align: center;
+   background-color: white;
+}
+.login-right>h2{
+    margin-bottom: 20px;
+}
+
+.login-right>a{
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px 150px 10px 150px;
+    width: 90%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.login-right>a:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+.login-form{
+    width: 450px;
+    
+}
+
+.form-item label:not(.checkboxLabel){
+    display: inline-block;
+    background-color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+input[type='email'],
+input[type='password']{
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 2rem;
+    width: 100%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+#login-btn{
+    font-size: 18px;
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+.login-form-fotter{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.login-form-fotter>a{
+    flex: 6;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: .6rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.login-form-fotter>a:hover{
+    background-color:aliceblue;
+}

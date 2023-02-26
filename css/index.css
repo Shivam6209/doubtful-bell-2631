@@ -1,0 +1,471 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Poly Regular", "Times New Roman", serif;
+}
+
+.nav {
+    width: 100%;
+    height: 185px;
+}
+
+.nav>#topLine {
+    width: 100%;
+    height: 35px;
+    background-color: #E0E0E0;
+}
+
+.nav>#topLine>.country {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 5px;
+    gap: 3px;
+}
+
+.nav>#topLine>.country:hover {
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+.country>img {
+    width: 20%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+#middle {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+#middle>a {
+    text-decoration: none;
+    color: black;
+}
+
+#middle>img {
+    height: 90%;
+}
+
+#search-content {
+    margin: auto;
+    width: 32%;
+    height: 38px;
+    font-size: 16px;
+    border: 2px solid 0.00, 0.00, 0.00, 87.06;
+}
+
+#search-content:focus {
+    scale: 1.02;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+    margin-right: 12px;
+    font-size: 17px;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    min-width: 300px;
+    float: left;
+}
+
+
+.dropdown-content>a {
+    display: flex;
+    /* margin: 10px; */
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+    background-color: #ffffff;
+
+}
+
+.dropdown:hover {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #E0E0E0;
+
+}
+.login{
+    text-align: center;
+}
+
+.dropdown-content>a:hover {
+    background-color: #E0E0E0;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* .........>>>>>>>........... */
+/* Style the dropdown button */
+.dropbtn1 {
+    margin-top: 9px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content1 {
+    
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #c9c9c9;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    display: none;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content1 a {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown1:hover .dropbtn1 {
+    border-radius: 3px;
+    background-color: #cccccc;
+  }
+
+  /* /,,,,,,,,,,,,,/ */
+
+  .dropbtn2 {
+    margin-top: 9px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    /* left: 0; */
+    /* margin: auto; */
+    z-index: 1;
+    display: none;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content2 h3 {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown2:hover .dropbtn2 {
+    border-radius: 3px;
+    background-color: #cccccc;
+  }
+  
+#cartDrop>a {
+    padding: 12px;
+    margin-right: 12px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#cartDrop>a:hover {
+    border-radius: 7px;
+    background-color: #E0E0E0;
+}
+
+#bottom {
+    display: flex;
+}
+
+#bottom a {
+    /* display: inline; */
+    padding: 12px;
+    margin: auto;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    /* margin-top: 6px; */
+}
+
+#bottom a:hover {
+    border-radius: 3px;
+    background-color: #E0E0E0;
+}
+
+#middle-top {
+    width: 100%;
+    height: 50px;
+    background-color: #E0E0E0;
+}
+#middle-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 3px;
+    background-color: #E0E0E0;
+}
+#middle-main>a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+#middle-main>a:hover{
+    cursor: pointer;
+    color: #343333;
+}
+#middle-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #c9c9c9;
+}
+#middle-bottom>a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.Category>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.categoryitem{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 50px;
+}
+.categoryitem>a>img{
+    width: 90%;
+}
+.bestSellers>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 15px 15px;
+  }
+
+  #product-container>div {
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: auto;
+    padding: 20px;
+
+  }
+
+  #product-container>div>button {
+    padding: 5px;
+    display: block;
+    margin: auto;
+  }
+
+  #product-container>div>button:hover {
+    cursor: pointer;
+
+  }
+
+  #product-container>div>img {
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  #product-container>div>img:hover {
+    scale: 1.05;
+    cursor: copy;
+  }
+
+  .second-product-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    margin-top: 20px;
+    
+  }
+  .second-product-container>div{
+    width: 99%;
+    gap: 10px;
+    text-align: center;
+  }
+  .second-product-container>div>img{
+    width: 100%;
+  }
+  .text-center{
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+  }
+
+  .features{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .features>div{
+    margin-top: 30px;
+    width: 92%;
+    gap: 30px;
+    
+  }
+  .features>div>img{
+    width: 100%;
+    
+  }
+  .blogs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogs>div{
+    margin-top: 30px;
+    width: 92%;
+    gap: 30px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    
+  }
+  .blogs>div>img{
+    width: 95%;
+    
+  }
+  .blogs>div>a{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.blogs>div>img:hover{
+    scale: 1.009;
+    cursor: pointer;
+}
+.dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .dot>h1{
+    margin: 2px;
+    height: 12px;
+    width: 12px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+ }
+.dot1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    
+ }
+ .dot1>h1{
+    margin: 2px;
+    height: 12px;
+    width: 12px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+ }
+
+ #text{
+  color: #000000;
+  font-size: 16px;
+ }
+ #font>a>i{
+  font-size:35px;
+  color: black;
+ }
+
+ #font>a>i:hover{
+  color: #605f5f;
+ }
+ #text>p>a{
+  text-decoration: none;
+  padding: 5px;
+ }
+ #text>p>a:hover{
+  text-decoration:underline;
+ }
+ 
+ #text>p:hover{
+  cursor: pointer;
+  text-decoration:underline;
+ }
+ #container>h2{
+  margin: 20px;
+}

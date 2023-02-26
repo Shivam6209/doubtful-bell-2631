@@ -1,0 +1,64 @@
+body{
+    margin:0 ;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+#container{
+   display: grid; 
+   grid-template-columns: repeat(3,1fr);
+}
+#container>div{
+    border-radius: 15px;
+    width: 95%;
+    margin-top: 30px;
+    gap: 10px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+#container>div:hover{
+    scale: 1.008;
+}
+#container>div>img{
+    width: 100%;
+}
+#container>div>button{
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: rgb(179, 178, 178);
+    color: white;
+    width: 50%;
+    font-size: 18px;
+}
+#container>div>button:hover{
+    background-color: rgb(255, 0, 0);
+}
+#container>div>p,h3{
+    margin-left: 8px;
+}
+.total{
+    margin:30px;
+}
+#Payment{
+    float: right;
+    text-decoration: none;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    margin: 15px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-size: 22px;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+#Payment:hover{
+    background-color: black;
+    color: white;
+}

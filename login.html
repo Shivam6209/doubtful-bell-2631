@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/login.css">
+ 
+  </head>
+  <body>
+    <div class="nav-login">
+        <div>
+            <img src="./images/image1.png" alt="">
+            <a href="./index.html">QUICKSTORE</a>
+        </div>
+    </div>
+
+   <div class="container">
+    <div class="login-left">
+     <div class="login-header">
+        <h1>Welcome to QUICKSTORE</h1>
+     </div>
+
+     <form class="login-form">
+        <div class="login-form-content">
+            <div class="form-item">
+                <label for="email">Enter email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="form-item">
+                <label for="password">Enter Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="form-item">
+               <div class="checkbox">
+                <input type="checkbox" id="rememberMeCheckbox">
+                <label for="rememberMeCheckbox" id="checkboxLabel">Remember Me</label>
+
+               </div>
+            </div>
+            <button id="login-btn" type="click">LOGIN TO YOUR ACCOUNT</button>
+        </div>
+        <p>Or, Continue with</p>
+        <div class="login-form-fotter">
+            <a href="https://myaccount.google.com/">
+                <img width="30" src="https://cdn.cdnlogo.com/logos/g/35/google-icon.svg" alt=""> Google
+            </a>
+            <a href="https://www.facebook.com/">
+                <img width="30" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png" alt=""> Facebook
+            </a>
+        </div>
+
+     </form>
+    </div>
+    <div class="login-right">
+   <h2>New Coustmer</h2>
+   <a href="./register.html" id="register">Register</a>
+    </div>
+   </div>
+
+  </body>
+  <script src="./script/login.js"></script>
+</html>
